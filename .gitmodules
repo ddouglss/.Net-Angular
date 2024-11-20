@@ -1,0 +1,3 @@
+[submodule "AppAngular"]
+	path = AppAngular
+	url = https://github.com/ddouglss/.Net-Angular.git
