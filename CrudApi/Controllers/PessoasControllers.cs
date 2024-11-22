@@ -11,7 +11,7 @@ namespace CrudApi.Controllers
     // Define esta classe como um controlador de API
     [ApiController]
     // Define a rota base para o controlador, usando o nome do controlador na rota ("api/[controller]")
-    [Route("api/[controller]")]
+    [Route("api/pessoas")]
     public class PessoasControllers : ControllerBase
     {
         // Dependência do contexto do banco de dados injetado via construtor
