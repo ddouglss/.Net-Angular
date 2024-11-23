@@ -53,7 +53,7 @@
             <pre><code>npm install</code></pre>
             <pre><code>ng serve</code></pre>
         </li>
-        <li>Acesse a aplicação em <a href="http://localhost:4200" target="_blank">http://localhost:4200</a>.</li>
+        <li>Acesse a aplicação em <a href="http://localhost:7042/api/pessoas" target="_blank">//localhost:7042/api/pessoas</a>.</li>
     </ol>
 
   <h2>📸 Demonstração</h2>
