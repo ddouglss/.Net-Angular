@@ -59,12 +59,10 @@
   <h2>📸 Demonstração</h2>
     <p>Abaixo estão algumas capturas de tela da aplicação:</p>
     <ul>
-        <li><strong>Tela Inicial:</strong></li>
-        <img src="path/to/your/image1.png" alt="Tela Inicial" width="600">
         <li><strong>Formulário de Registro:</strong></li>
-        <img src="path/to/your/image2.png" alt="Formulário de Registro" width="600">
-        <li><strong>Painel de Registros:</strong></li>
-        <img src="path/to/your/image3.png" alt="Painel de Registros" width="600">
+        <img src="https://github.com/user-attachments/assets/84e09491-5e7c-469d-a9e8-4881c41d2014" alt="Formulário de Registro" width="600">
+ <li><strong>Painel de Registros:</strong></li>
+        <img src="https://github.com/user-attachments/assets/4dfe1ab1-a9fd-45aa-bbfd-58d0316e17cb" alt="Painel de Registros" width="600">
     </ul>
     <p>Substitua <code>path/to/your/image</code> com o caminho correto das imagens.</p>
 
@@ -81,13 +79,18 @@
 <code>
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+    PackageReference Include="Azure.Identity" Version="1.13.1" 
+    PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0-rc.2.24474.3" 
+    PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" 
+    PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.0" 
+    PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" 
+    PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0"
+    PackageReference Include="Microsoft.Identity.Client" Version="4.66.2" 
+    PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" 
+    PackageReference Include="System.Formats.Asn1" Version="9.0.0" 
   </PropertyGroup>
   <ItemGroup>
-   <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
-  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+
    <!-- Outras dependências -->
   </ItemGroup>
 </Project>
